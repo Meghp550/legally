@@ -1,49 +1,61 @@
-# LegallyFit by TEAM 7
+# Legally AI
 
-Are you tired of navigating the complexities of legal matters?
-Uncertain about where to find reliable initial legal guidance?
+An AI-powered legal assistant web application that helps users submit legal questions and receive guided responses using a language model.  
+This project is a customized fork of the original *LegallyFit* repository with improvements for usability, configuration, and deployment.
 
-**Order, Order! May I have your attention please?**&emsp;&ensp;<img src="https://media0.giphy.com/media/ZdU54iqQNErNFeeAk8/200w.gif?cid=82a1493b8hqt0pd4izf0qlzpwu6zdyc4n44c86y5irokkj0w&ep=v1_gifs_related&rid=200w.gif&ct=s" alt="order! order!" width="50"/>
+---
 
-Welcome to LegallyFit, where our AI-powered legal advice chatbot is here to assist you!
+## 🚀 Live Demo (Optional)
 
-## Overview
+If deployed, add your live URL here:  
+🔗 https://legally-ai.vercel.app
 
-- **Preliminary Legal Guidance:** LegallyFit provides quick and informative preliminary legal advice, akin to an initial consultation, without the need to hire a lawyer.
-- **User-Friendly Interaction:** Simply ask a question, and our chatbot, driven by artificial intelligence, will understand your legal needs, delivering accurate and personalized guidance.
-- **Secure and Convenient:** Our login feature allows you to store and review your interaction history at your convenience, ensuring a secure and seamless experience.
+---
 
-## Objectives
+## 🧠 About The Project
 
- - Make preliminary legal advice accessible to everyone, bridging the gap between legal complexities and individuals seeking guidance.
- - Provide quick, informative, and personalized advice to help users take the first steps in various legal situations.
- - Empower users to understand and navigate legal challenges independently.
+**Legally AI** is a full-stack web application built with:
 
-## Technology Stack
+- **Next.js (React)** on the frontend  
+- **Node.js + Express** on the backend  
+- **MongoDB Atlas** as the database  
+- Any AI provider for answering legal queries (configurable via environment variables)
 
-LegallyFit is built using the following technologies:
+Users can enter legal questions in natural language and get an AI-generated response. Past questions and answers are stored so users can view their question history.
 
-- **MERN Stack:** MongoDB, Express.js, React.js, Node.js form the foundation of our web application.
-- **Next.js:** We utilize Next.js for a seamless and performant React application, enhancing the user experience.
+---
 
-## Upcoming Features
+## 📦 Features
 
- -  **Legal Document Creation:** Soon, LegallyFit will introduce the ability to generate customized legal documents, including wills, affidavits, and non-disclosure agreements.
- -  **Legal Resource Directory:** We're expanding our collection of legal resources, offering users comprehensive information on various legal topics.
- -  **Expert Consultation:** Explore options to connect with legal experts for more in-depth assistance.
- -  **Interactive Guides:** Introduce interactive guides to help users navigate common legal scenarios effectively.
+- Clean and responsive UI built with Next.js
+- REST API backend using Express
+- Persistent interaction history stored in MongoDB
+- Easy configuration with environment variables
+- Ready for deployment via Vercel (frontend) and other hosts (backend)
 
-## Challenges
-  
-While deciphering a user's legal issue is a complex task, even for seasoned professionals, we're committed to continuously enhancing our AI models for more accurate and helpful advice.
+---
 
-## Configuration
+## 🛠 Built With
 
-To get started, configure the following variables:
+| Layer        | Technology |
+|--------------|------------|
+| Frontend     | Next.js / React |
+| Backend      | Node.js + Express |
+| Database     | MongoDB Atlas |
+| AI Provider  | Configurable (OpenRouter / Hugging Face / others) |
+| Deployment   | Vercel (frontend), Render or Railway (backend) |
+| Containerization | Docker |
 
- 1. `PORT`
- 2. `MONGO_URI`
- 3. `SECRET_KEY`
- 4. `OPENAI_API_KEY`
+---
 
-Feel free to reach out if you have any questions, and thank you for choosing LegallyFit for your legal guidance needs!
+## 📋 Getting Started
+
+These instructions will get the project running on your local machine.
+
+---
+
+### 🔹 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/legally-ai.git
+cd legally-ai
